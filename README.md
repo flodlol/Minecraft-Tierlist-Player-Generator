@@ -1,9 +1,11 @@
 # Minecraft Tierlist Player Generator
+
+![thumbnail](./public/readme-image.png)
+
 Generate player head and body avatars with usernames using the Minecraft font for one player or multiple players at once based on a player list.
 
+
 ---
-
-
 
 ## Installation Instructions
 

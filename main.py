@@ -25,9 +25,9 @@ def red(to_red: str) -> str:
 def get_uuid(username):
     """Convert Minecraft username to UUID using Mojang API"""
 
-    response = requests.get(f"https://api.mojang.com/users/profiles/minecraft/{username}")
+    response = requests.get(f"https://api.ashcon.app/mojang/v2/user/{username}")
     if response.status_code == 200:
-        return response.json()['id']
+        return response.json()['uuid']
     return None
 
 
